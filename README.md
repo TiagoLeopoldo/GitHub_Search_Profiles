@@ -8,3 +8,4 @@ Este projeto permite **buscar perfis do GitHub** e visualizar informações como
 - 🎨 TailwindCSS  
 - ⚡ Vite  
 
+## [Deploy](https://tiagoleopoldo.github.io/GitHub_Search_Profiles/)
