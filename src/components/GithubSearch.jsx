@@ -76,6 +76,11 @@ const GithubSearch = () => {
           <div className="w-[448px] flex flex-col items-start">
             <p className="font-nunito font-bold text-[20px] text-[#005CFF]">{data.login}</p>
             <p className="font-nunito font-light text-[15px] text-black text-justify">{data.bio ? data.bio : "Nenhuma descrição disponível"}</p>
+            <a 
+              className="font-nunito font-semibold text-[18px] text-[#005CFF] hover:underline mt-[10px]" 
+              href={data.html_url} 
+              target="_blank" 
+              rel="noopener noreferrer">Visitar perfil no GitHub</a>
           </div>
         </div>
       )}
