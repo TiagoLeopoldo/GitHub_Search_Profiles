@@ -35,9 +35,9 @@ const GithubSearch = () => {
   return (
     <div className="flex flex-col justify-start items-center gap-8 w-[1156px] h-[537px] bg-black p-[34px] mx-auto">
       <div className="flex flex-row justify-between items-center gap-[10px] w-[384px] h-[82px]">
-        <img className="w-58px" src="src/assets/imgs/githublogo.svg" alt="GitHub Logo" />
+        <img className="w-58px" src="../assets/imgs/githublogo.svg" alt="GitHub Logo" />
         <p className="font-nunito text-[60px] font-semibold text-white">Perfil</p>
-        <img className="w-[160px] h-[45px]" src="src/assets/imgs/github.svg" alt="GitHub" />
+        <img className="w-[160px] h-[45px]" src="../assets/imgs/github.svg" alt="GitHub" />
       </div>
 
       <div className="flex flex-row items-center bg-gray-300 rounded-[10px] p-[1px] gap-[1px]">
