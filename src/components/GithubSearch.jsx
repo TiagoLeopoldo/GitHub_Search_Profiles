@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styles from './GithubSearch.module.css';
+import githublogo from '../assets/imgs/githublogo.svg'
 
 const GithubSearch = () => {
   const [data, setData] = useState(null); // Estado para armazenar os dados do usuário
@@ -35,7 +36,7 @@ const GithubSearch = () => {
   return (
     <div className="flex flex-col justify-start items-center gap-8 w-[1156px] h-[537px] bg-black p-[34px] mx-auto">
       <div className="flex flex-row justify-between items-center gap-[10px] w-[384px] h-[82px]">
-        <img className="w-58px" src="../assets/imgs/githublogo.svg" alt="GitHub Logo" />
+        <img className="w-58px" src={githublogo} alt="GitHub Logo" />
         <p className="font-nunito text-[60px] font-semibold text-white">Perfil</p>
         <img className="w-[160px] h-[45px]" src="../assets/imgs/github.svg" alt="GitHub" />
       </div>
@@ -50,7 +51,7 @@ const GithubSearch = () => {
           onKeyDown={(e) => e.key === "Enter" && searchUser()}
         />
         <button className="flex justify-center items-center w-[62px] h-[62px] rounded-[10px] bg-[#005CFF] border border-gray-300" onClick={searchUser}>
-          <img src="src/assets/imgs/Lupa.svg" alt="Buscar" />
+          <img src="../assets/imgs/Lupa.svg" alt="Buscar" />
         </button>
       </div>
 
