@@ -1,0 +1,48 @@
+
+/* Bio */
+ .profileContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  padding: 19px;
+  width: 804px;
+  height: 257px;
+  border-radius: 25px;
+  background-color: #D9D9D9;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.8s ease-in-out forwards;
+} 
+
+
+
+/* Error */
+.profileContainerError {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 19px;
+  width: 710px;
+  height: 88px;
+  border-radius: 25px;
+  background-color: #D9D9D9;
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+/* Animação de fade-in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

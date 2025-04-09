@@ -1,0 +1,11 @@
+.ball {
+    position: absolute;
+    width: 777px;
+    height: 777px;
+    top: -268px;
+    left: 1206px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #005CFF 0%, #000000 100%);
+    z-index: -1;
+    filter: blur(40px); 
+}
